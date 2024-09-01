@@ -49,4 +49,4 @@ ENV PATH="/usr/app/venv/bin:$PATH"
 EXPOSE 8501
 
 # Tell the image what to do when it starts as a container
-CMD ["streamlit", "run", "1_🏠_Home.py"]
+CMD ["streamlit", "run", "app.py"]
